@@ -1,0 +1,23 @@
+h1{
+    color: blue;
+}
+
+#master-div{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 20px; 
+    justify-content: center; 
+}
+
+.rows{
+    display:flex;
+    flex:1;
+    margin:5px;
+    justify-content: center;
+}
+.cells{
+    width: 30px;
+    height: 30px;
+    margin: 10px;  
+}
