@@ -7,7 +7,9 @@ h1{
     flex-direction: column;
     flex: 1;
     margin: 20px; 
-    justify-content: center; 
+    justify-content: center;
+    width:1293px;
+    height:1000px;
 }
 
 .rows{
@@ -15,9 +17,35 @@ h1{
     flex:1;
     margin:5px;
     justify-content: center;
+    min-height: 0;
+
 }
+
 .cells{
     width: 30px;
     height: 30px;
     margin: 10px;  
+    border-style:dotted;
+    border-width:1px;
+    min-height: 0;
+    
+}
+
+.hovered-cell{
+    width: 32px;
+    height: 30px;
+    margin: 10px;  
+    background-color: black;
+    min-height: 0;
+
+}
+
+.reset-button-div{
+    display:flex;
+    justify-content: center;
+
+}
+.reset-button{
+    margin:auto;
+    background-color: aqua;
 }
